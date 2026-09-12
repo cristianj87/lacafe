@@ -1,0 +1,64 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea; /* Color crema de fondo */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Caja principal que centra todo el contenido */
+.contenedor {
+    max-width: 600px; /* Ancho máximo de la página */
+    margin: 0 auto;   /* Centra la caja en la pantalla */
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Títulos con color café oscuro (tipo mole) */
+h1, h2 {
+    color: #4a2511; 
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilo para que la imagen no se salga de la caja */
+.imagen-receta {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Texto introductorio */
+.descripcion {
+    font-size: 1.1em;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Separación entre los elementos de las listas */
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* Diseño simple del botón */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #d35400; /* Naranja oscuro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #a04000;
+}
